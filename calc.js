@@ -1,5 +1,5 @@
 function calc(a, b) {
-  return a + b;
+  return a - b; // feature wants subtraction
 }
 
-console.log("Initial version:", calc(5, 5));
+console.log("Feature version:", calc(10, 5));
