@@ -1,5 +1,5 @@
 function calc(a, b) {
-  return a + b;
+  return a * b; // main changes to multiplication
 }
 
-console.log("Initial version:", calc(5, 5));
+console.log("Main version:", calc(3, 5));
